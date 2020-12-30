@@ -1,0 +1,17 @@
+.sign-up-form {
+    
+    left: 100px;
+  }
+
+.log-in-noti {
+  color: red;
+  text-align: center;
+  background-color: rgb(206, 197, 197);
+  font-size:larger;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.button-pad {
+  padding-bottom: 30px
+}

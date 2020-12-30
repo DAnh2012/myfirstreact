@@ -1,0 +1,117 @@
+.all-grey {
+    color: #747c87;
+}
+
+.title-detail {
+    font-weight: bold;
+    position: relative;
+    left: 40%;
+    font-size: large;
+}
+
+.tile-product {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: -.0016em;
+    color: #2c2f36;
+    margin: 8px 0;
+}
+
+.short-detail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #747c87;
+    padding-bottom: 16px;
+}
+
+.divide {
+    height: 1px;
+    line-height: 1px;
+    background: #ebedf0;
+    width: 100%;
+    margin: 16px 0;
+}
+ul {
+    list-style: none;
+}
+ul.short-detail-2 {
+    width: 100%;
+    display: block;
+}
+
+ul.short-detail-2 li {
+    float: left;
+    margin-right: 64px;
+}
+
+.pad-16 {
+    padding: 16px 0;
+}
+
+.short-detail-2 .sp1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #747c87;
+    width: auto;
+    margin-bottom: 4px;
+}
+
+.short-detail-2 .sp2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2c2f36;
+    width: auto;
+    margin-top: 4px;
+}
+
+.product-share {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.product-config {
+    position: relative;
+}
+
+.short-detail-wrap {
+    position: relative;
+}
+
+.main {
+    width: 60%;
+    left: 18%;
+    position: relative;
+
+}
+
+.round-button {
+    position: relative;
+    margin: 0px 0 0 0;
+    display: inline-block;
+}
+
+
+.round-button-circle:hover {
+	color: red
+}
+
+
+
+.slideshow {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+}

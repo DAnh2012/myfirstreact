@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.search-box {
+  outline: none;
+  width: 20%;
+  height: 41px;
+  border: none; 
+}
+
+.search-button {
+  position: relative;
+  left: 10px;
+}
+
+.main-list{
+  position: relative;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  left: 25%;
+  background-color: powderblue;
+  word-wrap: break-word;
+}
+
+.main-div-img {
+  
+  height: 100%;
+  width: 100%;
+}
+
+.main-list-left {
+  float: left;
+  border: solid 1px;
+  width: 35%;
+  height: 100%;
+  margin-right: 30px;
+}
+.main-list-right {
+  text-align: left;
+}
+
+
+.main-list-title {
+  color: red;
+  padding: 10px;
+}
+
+.main-list span {
+  padding: 10px;
+}
+
+.sign-up-form > div > input, .sign-up-form > div > span  {
+  margin-bottom: 20px;
+  position: relative;
+  left: 30%;
+  display: inline;
+}
+
+/*.sign-up-form > div > label {
+  position: relative;
+  left: 31%;
+  bottom: 2px;
+} */
+
+
+#sign-up-title {
+  text-align: center;
+}
+
